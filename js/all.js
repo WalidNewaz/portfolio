@@ -1,0 +1,1 @@
+"use strict";angular.module("portfolioApp",["ngRoute"]).run(function(l){l.$on("$routeChangeSuccess",function(o,n,t){l.title=n.$$route.title})}).controller("mainController",function(){console.log("[portfolioApp.mainController] Starting main controller...")}),angular.module("portfolioApp").config(function(o){o.when("/",{title:"Home",controller:"mainController"})});

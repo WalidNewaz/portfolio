@@ -1,0 +1,25 @@
+$base-color: #777;
+$second-color: #333;
+$heading-font: Ariel;
+$blue: blue;
+$red: red;
+
+@import 'mixins';
+
+.element {
+  width: 100px;
+  height: 100px;
+  background: $red;
+  p {
+    color: $second-color;
+  }
+}
+
+.link {
+  color: $second-color;
+  font-size: 12px;
+}
+
+.heading {
+  font-family: $heading-font;
+}
